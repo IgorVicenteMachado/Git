@@ -21,7 +21,7 @@
 -  <b><i> git remote -v </i></b>: exibe o (fetch: de onde baixa) e (push: para onde empurra)
 -  <b><i> git pull nome_do_repo </i></b>: puxa as alterações do repositório remoto
 -  <b><i> git push nome_do_repo nome_da_branch </i></b>: empurra as alterações da branch para o repositório remoto
--- <b><i> git push --set-upstream origin nome_da_branch </i></b>: ATENÇÃO: comando necessário quando se tem uma branch local e quer empurrá-la para o repositório remoto. Isso acontece quando a branch é recém-criada, localmente, e portanto ainda não foi configurado seu repositório de destino.
+- - <b><i> git push --set-upstream origin nome_da_branch </i></b>: ATENÇÃO: comando necessário quando se tem uma branch local e quer empurrá-la para o repositório remoto. Isso acontece quando a branch é recém-criada, localmente, e portanto ainda não foi configurado seu repositório de destino.
 
 
 ## Configurando Credenciais com segurança
