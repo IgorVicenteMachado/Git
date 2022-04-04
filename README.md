@@ -9,3 +9,4 @@
 * A branch é criada com base no último commit da branch em plano de trabalho(ou seja, a branch criada é a última cópia salva da branch que estou). Entretanto é possivel criar uma branch com base em um commit especifico [<b><i>git checkout -b NOME hash </i></b>].
 
 -  <b><i>git branch -d nome_da_branch </i></b>: deleta a branch
+-  <b><i>git merge nome_da_branch </i></b>: fusão da branch 'nome_da_branch' com a branch em plano de trabalho. 
