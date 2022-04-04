@@ -1,7 +1,7 @@
 # Brincando com git e github
 
 ## Novo Repositório
-# create a new repository on the command line
+### ...or create a new repository on the command line
 echo "# temporario" >> README.md
 - git init
 - git add README.md
@@ -9,13 +9,13 @@ echo "# temporario" >> README.md
 - git branch -M master
 - git remote add origin https://github.com/IgorVicenteMachado/temporario.git
 - git push -u origin master
-# …or push an existing repository from the command line
+### …or push an existing repository from the command line
 - git remote add origin https://github.com/IgorVicenteMachado/temporario.git
 - git branch -M master
 - git push -u origin master
 
 ATENÇÃO: origin = nome_do_repositório * * * pode-se aplicar outra nomenclatura.
-# …or import code from another repository
+### …or import code from another repository
 - git clone ...
 
 
