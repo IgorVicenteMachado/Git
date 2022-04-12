@@ -1,1 +1,18 @@
+########################################################################################################
+
 criando conflito proposital...
+
+
+Conflito pode surgir quando ocorrerem mudanças no repositório remoto (quiçá por outro desenvolvedor),
+no mesmo arquivo e na mesma linha do repositório local,
+neste caso a tentativa de pull (puxar as mudanças do repositório remoto para o local)
+vai desencadear o conflito.
+
+ Possibilidade de solução: O git ofere a visualização dos arquivos em conflito,
+cabendo ao desenvolvedor adaptar as mudanças. Assim que organizado os itens em conflito, 
+segue o fluxo convencional: 
+ [git add ] [git commit -m ""] [git push]
+
+ Possibilidade de abortar: (o próprio git sugere tal alternativa) [git merge --abort]
+
+ ########################################################################################################
