@@ -16,3 +16,24 @@ segue o fluxo convencional:
  Possibilidade de abortar: (o próprio git sugere tal alternativa) [git merge --abort]
 
  ########################################################################################################
+
+ Forking flow
+
+[ A fork is a copy of a repository. 
+Forking a repository allows you to freely experiment with changes without affecting the original project.]
+
+Fazer o Fork de um repositório permite que você experimente fazer alterações sem afetar o projeto original,
+pois o fork é uma cópia de um repositório open source, (podemos trabalhar livremente sobre essa cópia).
+
+Podemos fazer uma referência para o projeto oficial no nosso ambiente de desenvolvimento, basta
+[git remote add 'name' https://repositórioOficial ] : aqui é possivel somente fazer o pull, não é possível 
+enviar nossas modificações diretamente [push]. 
+
+É possível fazer um pull request através da nossa fork (ou seja, nosso clone modificado).
+
+
+[git remote -v ] : exibe fetch e push dos repositórios remotos  
+
+ git remote : Manage set of tracked repositories
+
+  ########################################################################################################
