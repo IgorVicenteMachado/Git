@@ -66,8 +66,12 @@ Podemos fazer uma referência para o projeto oficial no nosso ambiente de desenv
 
 - <b><i> [git remote -v ] </i></b> : exibe fetch e push dos repositórios rastreados  
 
+## Revertendo git add, git commit, git push
+
+ <b><i> git restore --staged 'nome' </i></b> : Reverte git add  
+<b><i> git rm --cached 'nome' </i></b> : Reverte git add  (retira arquivo da area de stage)
 
 
-<b><i> </i></b>:
+<b><i> `dotnet new gitignore`  </i></b>:
 <b><i> </i></b>:
 <b><i> </i></b>:
