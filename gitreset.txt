@@ -1,0 +1,14 @@
+testando reset 
+
+
+git reset --soft HEAD~1 : reverte o último commit [HEAD~1 = VOLTA 1] e volta para o estado anterior ao commit, (ou seja, as alterações 
+continuam feitas e na area de stage);
+
+--mixed : revert o commit e retira as alterações da area de stage.
+
+--hard : revert o commit, retira da area de stage, e volta ultimo commit valido (ou seja, descartam 
+as alterações feitas)
+
+kkkkkkkkkkkkkk
+reset 
+000000000000000
