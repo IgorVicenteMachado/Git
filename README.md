@@ -43,6 +43,9 @@ ATENÇÃO: origin = nome_do_repositório * * * pode-se aplicar outra nomenclatur
 
 - - <b><i> git push --set-upstream origin nome_da_branch </i></b>: ATENÇÃO: comando necessário quando se tem uma branch local e quer empurrá-la para o repositório remoto. Isso acontece quando a branch é recém-criada, localmente, e portanto ainda não foi configurado seu repositório de destino.
 
+
+- <b><i> git checkout 'nomeDaBranch' </i></b> : além de navegar entre as branchs, tal comando serve como uma forma de restaurar o projeto para o ponto do último commit feito, basta executá-lo na branch em plano de trabalho passando o nome dessa no comando. 
+
 ## Entendo Repositório Remoto
 
 -  <b><i> git clone https://... </i></b>: clona o repositório remoto
@@ -76,10 +79,13 @@ Podemos fazer uma referência para o projeto oficial no nosso ambiente de desenv
 
 ## Revertendo git add, git commit, git push
 
- <b><i> git restore --staged 'nome' </i></b> : Reverte git add  
-<b><i> git rm --cached 'nome' </i></b> : Reverte git add  (retira arquivo da area de stage)
+- <b><i> git restore --staged 'nome' </i></b> : Reverte git add  (retira arquivo da area de stage)
+- <b><i> git rm --cached 'nome' </i></b> : Reverte git add  (retira arquivo da area de stage)
+- <b><i> git rm -f 'nome'  </i></b> :  retira arquivo da área de stage, e também o remove da máquina.
+
+## Commits
+- <b><i> git log --oneline </i></b> :  resumo dos commits
 
 
-<b><i> `dotnet new gitignore`  </i></b>:
-<b><i> </i></b>:
-<b><i> </i></b>:
+- <b><i> `dotnet new gitignore`  </i></b> : adiciona o gitignore ao projeto (template para .net)
+- <b><i> </i></b>:
