@@ -85,12 +85,26 @@ Podemos fazer uma referência para o projeto oficial no nosso ambiente de desenv
 
 ## Revertendo Commit 
 
+> RESET : altera o histórico do projeto 
+
 - <b><i> git reset --soft HEAD~1 </i></b> : reverte 1 ( HEAD~1 ) Commit ( o último ) mantendo os arquivos modificados na área de stage. 
 - <b><i> git reset HEAD~1 </i></b> : reverte 1 ( HEAD~1 ) Commit ( o último ) e retira os arquivos modificados da área de stage. 
 - <b><i> git reset --hard HEAD~1 </i></b> : reverte 1 ( HEAD~1 ) Commit ( o último ) E TODAS ALTERAÇÕES FEITAS (desde o último commit)
+
+> REVERT : cria um novo commit 
+
+- <b><i> git revert HEAD~1 (ou HASH) </i></b> : reverte o commit, criando um novo commit. 
+ 
+## Revertendo git Push
+
+- <b><i> git push -f </i></b> : verificado o erro após o push, deve-se reverter o projeto localmente (git reset ou revert, atentando-se as particularidades dos commandos) e então forçar o push. 
+
+OBS: Cuidado com commando.
+
+
 ## Commits
 - <b><i> git log --oneline </i></b> :  resumo dos commits
 
 
 - <b><i> `dotnet new gitignore`  </i></b> : adiciona o gitignore ao projeto (template para .net)
-- <b><i> </i></b>:
+- <b><i> </i></b> :
