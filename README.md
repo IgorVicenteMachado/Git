@@ -77,12 +77,17 @@ Podemos fazer uma referência para o projeto oficial no nosso ambiente de desenv
 
 - <b><i> [git remote -v ] </i></b> : exibe fetch e push dos repositórios rastreados  
 
-## Revertendo git add, git commit, git push
+## Revertendo git add
 
 - <b><i> git restore --staged 'nome' </i></b> : Reverte git add  (retira arquivo da area de stage)
 - <b><i> git rm --cached 'nome' </i></b> : Reverte git add  (retira arquivo da area de stage)
 - <b><i> git rm -f 'nome'  </i></b> :  retira arquivo da área de stage, e também o remove da máquina.
 
+## Revertendo Commit 
+
+- <b><i> git reset --soft HEAD~1 </i></b> : reverte 1 ( HEAD~1 ) Commit ( o último ) mantendo os arquivos modificados na área de stage. 
+- <b><i> git reset HEAD~1 </i></b> : reverte 1 ( HEAD~1 ) Commit ( o último ) e retira os arquivos modificados da área de stage. 
+- <b><i> git reset --hard HEAD~1 </i></b> : reverte 1 ( HEAD~1 ) Commit ( o último ) E TODAS ALTERAÇÕES FEITAS (desde o último commit)
 ## Commits
 - <b><i> git log --oneline </i></b> :  resumo dos commits
 
