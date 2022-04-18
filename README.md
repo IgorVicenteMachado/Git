@@ -1,8 +1,8 @@
 # Brincando com git e github
 
- <a href="https://www.youtube.com/playlist?list=PLvS2JoIlSA4DCmp7pbXXuZEUb5E-IDb-K"> curso completo </a> youtube: Fabio Ruicci
+ <a href="https://www.youtube.com/playlist?list=PLvS2JoIlSA4DCmp7pbXXuZEUb5E-IDb-K"> Curso Completo </a> no youtube com Fabio Ruicci.
 
-| `links úteis:` 
+ `links úteis:` 
  - https://onlywei.github.io/explain-git-with-d3/
 
  - https://learngitbranching.js.org/?locale=pt_BR
