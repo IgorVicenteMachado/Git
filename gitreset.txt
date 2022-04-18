@@ -9,6 +9,4 @@ continuam feitas e na area de stage);
 --hard : revert o commit, retira da area de stage, e volta ultimo commit valido (ou seja, descartam 
 as alterações feitas)
 
-kkkkkkkkkkkkkk
-reset 
-000000000000000
+
