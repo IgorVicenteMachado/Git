@@ -37,13 +37,4 @@ enviar nossas modificações diretamente [push].
  git remote : Manage set of tracked repositories
 
 #########################################################################################################
-
- Revertendo git add
-
-[ git restore --staged <nomeDoArquivo> ] (arquivo é retirado da área de stage) ( < . > para todos os arquivos)
-[ git rm --cached <nomeDoArquivo> ]      (arquivo é retirado da área de stage)
-[ git rm -f <nomeDoArquivo> ]   (retirado da área de stage, e também removido da máquina.)
-[ git checkout <branch> ] (além de navegar entre as branchs, tal comando serve como uma forma de restaurar
-o projeto para o ponto do último commit feito, basta executá-lo na branch em plano de trabalho passando o nome 
-dessa no comando )
         
