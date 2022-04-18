@@ -2,10 +2,10 @@
 
  <a href="https://www.youtube.com/playlist?list=PLvS2JoIlSA4DCmp7pbXXuZEUb5E-IDb-K"> curso completo </a> youtube: Fabio Ruicci
 
-| links úteis: 
-| - https://onlywei.github.io/explain-git-with-d3/
+| `links úteis:` 
+ - https://onlywei.github.io/explain-git-with-d3/
 
-| - https://learngitbranching.js.org/?locale=pt_BR
+ - https://learngitbranching.js.org/?locale=pt_BR
 
 
 ## Novo Repositório
