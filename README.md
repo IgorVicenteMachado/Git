@@ -66,16 +66,23 @@ ATENÇÃO: origin = nome_do_repositório * * * pode-se aplicar outra nomenclatur
 Forking a repository allows you to freely experiment with changes without affecting the original project.]`
 
 
-> Fazer o Fork de um repositório permite que você experimente fazer alterações sem afetar o projeto original, pois o fork é uma cópia de um repositório open source, (podemos trabalhar livremente sobre essa cópia).
+ Fazer o Fork de um repositório permite que você experimente fazer alterações sem afetar o projeto original, pois o fork é uma cópia de um repositório open source, (podemos trabalhar livremente sobre essa cópia).
 
 Podemos fazer uma referência para o projeto oficial no nosso ambiente de desenvolvimento, basta: 
 
-- <b><i> [git remote add 'name' https://repositórioOficial ]  </i></b>: : aqui é possivel somente fazer o pull, não é possível enviar nossas modificações diretamente [push]. 
-
-É possível fazer um pull request através da nossa fork (ou seja, nosso clone modificado).
-
-
+- <b><i> [git remote add 'name' https://repositórioOficial ]  </i></b> : aqui é possivel somente fazer o pull, não é possível enviar nossas modificações diretamente [push]. 
 - <b><i> [git remote -v ] </i></b> : exibe fetch e push dos repositórios rastreados  
+
+ > #### Fork -> até o Pull Request
+ > - - faça o fork de algum repositório [ uma cópia desse projeto é criada no seu repositório pessoal]
+ > - - faça o clone [ cópia do projeto ] para ambiente local 
+ > - - (opcional) - <b><i> [git remote add 'name' https://repositórioOficial ]  </i></b>: add o repositório oficial ( fazer pull* )
+ > - - crie nova branch para desenvolver nova feature
+ > - - faz o push dessa branch
+ > - - e no github é possivel `compare e pull request` tanto para o projeto oficial, quanta entre as branchs do seu próprio projeto.
+
+
+
 
 ## Revertendo git add
 
