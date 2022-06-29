@@ -28,6 +28,11 @@ ATENÇÃO: origin = nome_do_repositório * * * pode-se aplicar outra nomenclatur
 
 
 ## Entendendo Branch
+Configurando o Git para iniciar com a branch main (e não master)
+ ```Git
+git config --global init.defaultBranch main
+```
+
 -  <b><i> git branch </i></b>: exibe as branch 
 -  <b><i> git branch -a</i></b>: exibe tanto branchs locais quanto do repositório remoto
 -  <b><i>git branch nome_da_branch </i></b>: cria a branch com nome especificado.
@@ -111,10 +116,8 @@ OBS: Cuidado com commando.
 
 ## Commits
 - <b><i> git log --oneline </i></b> :  resumo dos commits
-
-
 - <b><i> `dotnet new gitignore`  </i></b> : adiciona o gitignore ao projeto (template para .net)
-- <b><i> </i></b> :
+
 
 #  C# (markdown)
 ```csharp
