@@ -28,6 +28,9 @@ ATENÇÃO: origin = nome_do_repositório * * * pode-se aplicar outra nomenclatur
 
 
 ## Entendendo Branch
+ ```Git
+ git config --list
+```
 Configurando o Git para iniciar com a branch main (e não master)
  ```Git
 git config --global init.defaultBranch main
