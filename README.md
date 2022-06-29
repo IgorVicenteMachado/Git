@@ -115,3 +115,8 @@ OBS: Cuidado com commando.
 
 - <b><i> `dotnet new gitignore`  </i></b> : adiciona o gitignore ao projeto (template para .net)
 - <b><i> </i></b> :
+
+#  C# (markdown)
+```csharp
+public class test { }
+```
