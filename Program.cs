@@ -17,7 +17,7 @@
 
     private static void Menu(int number1, int number2)
     {
-        Console.WriteLine("Somar ou Subtrair?");
+        Console.WriteLine("Adicionar ou Subtrair?");
         Console.WriteLine("Pressione [s] para somar");
         Console.WriteLine("Pressione [d] para subtrair");
         char opcao = Convert.ToChar(Console.ReadLine().ToLower());
